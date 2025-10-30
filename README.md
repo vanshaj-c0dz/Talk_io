@@ -1,7 +1,3 @@
-<!-- PROJECT BANNER -->
-<p align="center">
-  <img src="./assets/banner.png" alt="Talk_io Banner" width="100%" />
-</p>
 
 <h1 align="center">💬 Talk_io</h1>
 
@@ -11,8 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://your-frontend-link.vercel.app">🌐 Live Demo</a> •
-  <a href="https://your-backend-link.onrender.com">🧠 Backend API</a> •
+  <a href="https://talk-io-nnzn.onrender.com">🌐 Live Demo</a> •
   <a href="https://github.com/vanshaj-c0dz/Talk_io/issues">🐞 Report Bug</a> •
   <a href="https://github.com/vanshaj-c0dz/Talk_io/pulls">💡 Request Feature</a>
 </p>
@@ -36,9 +31,9 @@
 - 👥 Secure user authentication (login/signup)  
 - 🧑‍🤝‍🧑 Friend request system  
 - 🟢 Online/offline user indicators  
-- 💬 One-on-one and group chats  
+- 💬 One-on-one chats and video call 
 - 🎨 Sleek, modern UI with React & Tailwind CSS  
-- 🌐 Fully deployed (Render backend + Vercel frontend)
+- 🌐 Fully deployed (Render backend + frontend)
 
 ---
 
@@ -49,7 +44,7 @@
 | Frontend | React, Vite, Tailwind CSS |
 | Backend | Node.js, Express, Socket.io |
 | Database | MongoDB (Mongoose) |
-| Deployment | Render (API) + Vercel/Netlify (UI) |
+| Deployment | Render (API + UI) |
 
 ---
 
@@ -61,7 +56,7 @@ git clone https://github.com/vanshaj-c0dz/Talk_io.git
 cd Talk_io
 
 ```
-## 🔐 Environment Variables
+### 2️⃣  Environment Variables
 
 Create a `.env` file inside your **backend** directory and add:
 
@@ -79,7 +74,7 @@ Create a `.env` file inside your **frontend** directory and add:
 VITE_STREAM_API_KEY=m4uvqd4mmyt2
 ```
 
-### 1️⃣ Build and Run
+### 3️⃣ Build and Run
 ```bash
 
 npm run build
@@ -93,7 +88,7 @@ npm run start
 🎓 CSE Student | 💻 Web Developer  
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/vanshaj-c0dz)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-link)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vanshaj-sharma-b047a7219/)
 
 ---
 
@@ -105,7 +100,7 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## 🌍 Deployment
 
-- **Frontend:** [Live Demo on Vercel](https://your-frontend-link.vercel.app)  
-- **Backend API:** [Render Deployment](https://your-backend-link.onrender.com)
+- **Live:** [Live Demo on Render](https://talk-io-nnzn.onrender.com)  
+- 
 
 
