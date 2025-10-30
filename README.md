@@ -59,3 +59,53 @@
 ```bash
 git clone https://github.com/vanshaj-c0dz/Talk_io.git
 cd Talk_io
+
+```
+## 🔐 Environment Variables
+
+Create a `.env` file inside your **backend** directory and add:
+
+```env
+PORT=5001
+MONGO_URI=mongodb+srv://vanshajsharma033_db_user:wxSGsh4jG8uKZVeO@cluster0.ukkelf9.mongodb.net/talkio_db?retryWrites=true&w=majority&appName=Cluster0
+STREAM_API_KEY=m4uvqd4mmyt2
+STREAM_API_SECRET=xmcrm3du6m4k5dctkz6mg8ad6wt9p3vm4aem7aer7kjfzyanw5hs63bnsxs6fbqb
+
+JWT_SECRET_KEY=6kDv8fPAPJhPhPL/aTktadkt9JBmpU4tgYNiUvVoM4A=
+```
+Create a `.env` file inside your **frontend** directory and add:
+
+```env
+VITE_STREAM_API_KEY=m4uvqd4mmyt2
+```
+
+### 1️⃣ Build and Run
+```bash
+
+npm run build
+npm run start
+
+```
+
+## 🧑‍💻 Author
+
+**Vanshaj Sharma**  
+🎓 CSE Student | 💻 Web Developer  
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/vanshaj-c0dz)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-link)
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+## 🌍 Deployment
+
+- **Frontend:** [Live Demo on Vercel](https://your-frontend-link.vercel.app)  
+- **Backend API:** [Render Deployment](https://your-backend-link.onrender.com)
+
+
