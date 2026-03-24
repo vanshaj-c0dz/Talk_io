@@ -62,16 +62,16 @@ Create a `.env` file inside your **backend** directory and add:
 
 ```env
 PORT=5001
-MONGO_URI=mongodb+srv://vanshajsharma033_db_user:wxSGsh4jG8uKZVeO@cluster0.ukkelf9.mongodb.net/talkio_db?retryWrites=true&w=majority&appName=Cluster0
-STREAM_API_KEY=m4uvqd4mmyt2
-STREAM_API_SECRET=xmcrm3du6m4k5dctkz6mg8ad6wt9p3vm4aem7aer7kjfzyanw5hs63bnsxs6fbqb
+#MONGO_URI
+#STREAM_API_KEY 
+#STREAM_API_SECRET 
 
-JWT_SECRET_KEY=6kDv8fPAPJhPhPL/aTktadkt9JBmpU4tgYNiUvVoM4A=
+#JWT_SECRET_KEY
 ```
 Create a `.env` file inside your **frontend** directory and add:
 
 ```env
-VITE_STREAM_API_KEY=m4uvqd4mmyt2
+#VITE_STREAM_API_KEY 
 ```
 
 ### 3️⃣ Build and Run
